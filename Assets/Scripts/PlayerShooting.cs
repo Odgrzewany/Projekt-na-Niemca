@@ -4,12 +4,13 @@ public class PlayerShooting : MonoBehaviour {
 
     public Animator shootingAnimator;
 
+   
+
     public bool fire;
 
     public GameObject bullet;
     public Transform bulletResp;
 
-    public float bulletSpeed;
 
     int maxAmmo = 30;
     public int actualAmmo;
@@ -21,7 +22,9 @@ public class PlayerShooting : MonoBehaviour {
     
     void Start () {
         czyLiczyc = true;
-	}
+  
+
+    }
 	
 	
 	void Update () {
@@ -31,15 +34,18 @@ public class PlayerShooting : MonoBehaviour {
             {
                 fire = true;
                 Ak47Shooting();
+                
             }
             else
             {
                 fire = false;
+                
             }
         }
         else
         {
             fire = false;
+           
         }
        
 
@@ -83,9 +89,6 @@ public class PlayerShooting : MonoBehaviour {
             Debug.Log("Strzał");
             czyStrzelono = true;
             GameObject bullet1 =  Instantiate(bullet, bulletResp.position, bulletResp.rotation);
-
-            //bullet1.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(bulletSpeed, 0, 0));
-            bullet1.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 6;
             actualAmmo -= 1;
             
         }
