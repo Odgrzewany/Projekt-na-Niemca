@@ -32,11 +32,16 @@ public class PlayerShooting : MonoBehaviour {
                 fire = true;
                 Ak47Shooting();
             }
+            else
+            {
+                fire = false;
+            }
         }
         else
         {
             fire = false;
         }
+       
 
         shootingAnimator.SetBool("IsShooting", fire);
 
@@ -77,10 +82,12 @@ public class PlayerShooting : MonoBehaviour {
         {
             Debug.Log("Strzał");
             czyStrzelono = true;
-            Instantiate(bullet, bulletResp.position, bulletResp.rotation);
+            GameObject bullet1 =  Instantiate(bullet, bulletResp.position, bulletResp.rotation);
 
-            bullet.GetComponent<Rigidbody>().velocity = bulletResp.forward * bulletSpeed * Time.deltaTime;
+            //bullet1.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(bulletSpeed, 0, 0));
+            bullet1.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 6;
             actualAmmo -= 1;
+            
         }
     }
 
