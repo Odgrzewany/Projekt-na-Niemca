@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour {
 
     void Start()
     {
-        //transform.Translate(new Vector3(0,0,bulletSpeed * Time.deltaTime));
+    
         GetComponent<Rigidbody>().AddForce(transform.forward * bulletSpeed, ForceMode.Impulse);
     }
 }

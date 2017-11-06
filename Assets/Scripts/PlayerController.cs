@@ -7,11 +7,8 @@ public class PlayerController : MonoBehaviour {
     public float mouseSensitivity;
     public GameObject c1;
 
-    public UnityEngine.UI.Text energyText;
+    bool isGateOpener;
 
-
-    public float actualEnergy;
-    float maxEnergy;
 
     public int isGrounded;
 
@@ -20,16 +17,19 @@ public class PlayerController : MonoBehaviour {
 
     private Rigidbody rb;
 
+    
+
 
 	void Start () {
         Cursor.lockState = CursorLockMode.Locked;
         rb = GetComponent<Rigidbody>();
-        maxEnergy = 100;
-        actualEnergy = 100;
+ 
 	}
 	
 
 	void Update () {
+
+
 
         rotX = Input.GetAxis("Mouse X")*mouseSensitivity;
         rotY = Input.GetAxis("Mouse Y")*mouseSensitivity ;
@@ -63,27 +63,7 @@ public class PlayerController : MonoBehaviour {
                 isGrounded = 0;
             }
         }
-        if (actualEnergy > 0 && Input.GetKey(KeyCode.LeftShift))
-        {
-            movSpeed = 8;
-            actualEnergy -= 8 * Time.deltaTime;
-        }
-        else
-        {
-            actualEnergy += Time.deltaTime;
-            movSpeed = 3;
-        }
-      
-        if(actualEnergy > maxEnergy)
-        {
-            actualEnergy = maxEnergy;
-        }
-        if(actualEnergy < 0)
-        {
-            actualEnergy = 0;
-        }
 
-        energyText.text = "Enregy: " + actualEnergy.ToString("00");
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -94,5 +74,14 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
-  
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("GateOpener"))
+        {
+            isGateOpener = true;
+            Destroy(other.gameObject);
+        }
+    }
+
 }

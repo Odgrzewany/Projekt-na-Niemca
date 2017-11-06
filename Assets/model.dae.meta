@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 067eeac30dc41c24f93fa1bfd6816104
+timeCreated: 1509991735
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Component_130
+    100002: Component_130 1
+    100004: Component_130 2
+    100006: Component_130 3
+    100008: Component_130 4
+    100010: Component_130 5
+    100012: Component_131
+    100014: Component_131 1
+    100016: Component_131 2
+    100018: Component_132
+    100020: Component_132 1
+    100022: Component_132 2
+    100024: group_0
+    100026: group_1
+    100028: group_10
+    100030: group_11
+    100032: group_12
+    100034: group_13
+    100036: group_14
+    100038: group_15
+    100040: group_16
+    100042: group_17
+    100044: group_18
+    100046: group_2
+    100048: group_3
+    100050: group_4
+    100052: group_5
+    100054: group_6
+    100056: group_7
+    100058: group_8
+    100060: group_9
+    100062: ID179
+    100064: ID179 1
+    100066: ID179 2
+    100068: ID179 3
+    100070: ID179 4
+    100072: ID179 5
+    100074: ID189
+    100076: ID189 1
+    100078: ID189 2
+    100080: ID189 3
+    100082: ID189 4
+    100084: ID189 5
+    100086: ID201
+    100088: ID201 1
+    100090: ID201 2
+    100092: ID201 3
+    100094: ID201 4
+    100096: ID201 5
+    100098: instance_0
+    100100: instance_1
+    100102: instance_1 1
+    100104: instance_1 2
+    100106: instance_2
+    100108: instance_2 1
+    100110: instance_2 2
+    100112: instance_3
+    100114: instance_3 1
+    100116: instance_3 2
+    100118: instance_4
+    100120: instance_5
+    100122: //RootNode
+    100124: skp_camera_Last_Saved_SketchUp_View
+    400000: Component_130
+    400002: Component_130 1
+    400004: Component_130 2
+    400006: Component_130 3
+    400008: Component_130 4
+    400010: Component_130 5
+    400012: Component_131
+    400014: Component_131 1
+    400016: Component_131 2
+    400018: Component_132
+    400020: Component_132 1
+    400022: Component_132 2
+    400024: group_0
+    400026: group_1
+    400028: group_10
+    400030: group_11
+    400032: group_12
+    400034: group_13
+    400036: group_14
+    400038: group_15
+    400040: group_16
+    400042: group_17
+    400044: group_18
+    400046: group_2
+    400048: group_3
+    400050: group_4
+    400052: group_5
+    400054: group_6
+    400056: group_7
+    400058: group_8
+    400060: group_9
+    400062: ID179
+    400064: ID179 1
+    400066: ID179 2
+    400068: ID179 3
+    400070: ID179 4
+    400072: ID179 5
+    400074: ID189
+    400076: ID189 1
+    400078: ID189 2
+    400080: ID189 3
+    400082: ID189 4
+    400084: ID189 5
+    400086: ID201
+    400088: ID201 1
+    400090: ID201 2
+    400092: ID201 3
+    400094: ID201 4
+    400096: ID201 5
+    400098: instance_0
+    400100: instance_1
+    400102: instance_1 1
+    400104: instance_1 2
+    400106: instance_2
+    400108: instance_2 1
+    400110: instance_2 2
+    400112: instance_3
+    400114: instance_3 1
+    400116: instance_3 2
+    400118: instance_4
+    400120: instance_5
+    400122: //RootNode
+    400124: skp_camera_Last_Saved_SketchUp_View
+    2000000: skp_camera_Last_Saved_SketchUp_View
+    2300000: Component_130
+    2300002: Component_130 1
+    2300004: Component_130 2
+    2300006: Component_130 3
+    2300008: Component_130 4
+    2300010: Component_130 5
+    2300012: Component_132
+    2300014: Component_132 1
+    2300016: Component_132 2
+    2300018: group_10
+    2300020: group_11
+    2300022: group_12
+    2300024: group_13
+    2300026: group_14
+    2300028: group_15
+    2300030: group_16
+    2300032: group_17
+    2300034: group_18
+    2300036: group_3
+    2300038: group_4
+    2300040: group_5
+    2300042: group_6
+    2300044: group_7
+    2300046: group_8
+    2300048: group_9
+    2300050: ID179
+    2300052: ID179 1
+    2300054: ID179 2
+    2300056: ID179 3
+    2300058: ID179 4
+    2300060: ID179 5
+    2300062: ID189
+    2300064: ID189 1
+    2300066: ID189 2
+    2300068: ID189 3
+    2300070: ID189 4
+    2300072: ID189 5
+    3300000: Component_130
+    3300002: Component_130 1
+    3300004: Component_130 2
+    3300006: Component_130 3
+    3300008: Component_130 4
+    3300010: Component_130 5
+    3300012: Component_132
+    3300014: Component_132 1
+    3300016: Component_132 2
+    3300018: group_10
+    3300020: group_11
+    3300022: group_12
+    3300024: group_13
+    3300026: group_14
+    3300028: group_15
+    3300030: group_16
+    3300032: group_17
+    3300034: group_18
+    3300036: group_3
+    3300038: group_4
+    3300040: group_5
+    3300042: group_6
+    3300044: group_7
+    3300046: group_8
+    3300048: group_9
+    3300050: ID179
+    3300052: ID179 1
+    3300054: ID179 2
+    3300056: ID179 3
+    3300058: ID179 4
+    3300060: ID179 5
+    3300062: ID189
+    3300064: ID189 1
+    3300066: ID189 2
+    3300068: ID189 3
+    3300070: ID189 4
+    3300072: ID189 5
+    4300000: group_3
+    4300002: group_4
+    4300004: group_5
+    4300006: group_6
+    4300008: group_7
+    4300010: group_8
+    4300012: group_9
+    4300014: group_10
+    4300016: group_11
+    4300018: group_12
+    4300020: group_13
+    4300022: group_14
+    4300024: group_15
+    4300026: group_16
+    4300028: group_17
+    4300030: group_18
+    4300032: Component_130
+    4300034: ID179
+    4300036: ID189
+    4300038: Component_132
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Rough_
+    second: {fileID: 2100000, guid: a82c5cc81aca82b4d819ba64f158ff42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Metal_Rough__1
+    second: {fileID: 2100000, guid: 29aeb87f6e3a8a245a1f256f7cf1d563, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: barb
+    second: {fileID: 2100000, guid: 0f3d01dcc149d1844a840bc312d62fb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 26319b40da5bda8468a2f9185b2cf65a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_0
+    second: {fileID: 2100000, guid: d07906f1b3f7cc240b0549ec7aacc0b0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
